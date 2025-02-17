@@ -46,6 +46,7 @@ def main():
     while True:
         user_input = input("What would you like to do?\n1: Translate to emoji\n2: Add mood-based emojis\nType 'exit' to quit: ")
         if user_input.lower() == 'exit':
+            print ("Goodbye! 👋 ")
             break
 
         if user_input == '1':
